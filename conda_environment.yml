@@ -1,0 +1,96 @@
+name: tac
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+  - defaults
+
+dependencies:
+  # Python environment
+  - python=3.10.18
+  - pip=24.2
+
+  # Deep learning framework
+  - pytorch=2.0.1
+  - torchvision=0.15.2
+  - pytorch-cuda=11.8
+
+  # Numerical computing
+  - numpy=1.26.4
+  - scipy=1.12.0
+
+  # 3D processing libraries
+  - eigen=3.4.0
+
+  # Data storage
+  - numcodecs=0.12.1
+  - yaml=0.2.5
+
+  # System dependencies for rendering and display
+  - libglu=9.0.3
+  - mesalib=23.0.2
+  - glew=2.1.0
+  - glfw=3.2.1
+  - xorg-libx11=1.8.4
+  - xorg-libxext=1.3.4
+  - xorg-libxfixes=5.0.3
+  - xorg-libxrender=0.9.10
+
+  # Build tools
+  - cmake=3.27
+
+  # Pip packages
+  - pip:
+      # Data collection
+      - click==8.1.3
+      - pyrealsense2==2.55.1.6486
+
+      # 3D processing
+      - trimesh==4.2.2
+      - open3d==0.18.0
+
+      # Configuration management
+      - hydra-core==1.3.2
+      - omegaconf==2.3.0
+      - pyyaml==6.0.1
+
+      # Image and video processing
+      - opencv-contrib-python==4.9.0.80
+      - opencv-python==4.9.0.80
+      - pillow==10.4.0
+      - imageio==2.34.0
+
+      # Segmentation and detection
+      - segment-anything==1.0
+      - supervision==0.22.0
+
+      # Data storage
+      - zarr==2.18.2
+
+      # Tensor operations
+      - einops==0.7.0
+
+      # Math utilities
+      - pyquaternion==0.9.9
+
+      # Build dependencies
+      - pybind11==2.12.0
+
+      # Progress and CLI
+      - tqdm==4.66.0
+
+      # Visualization
+      - matplotlib==3.8.3
+
+      # Protobuf (specific version for compatibility)
+      - protobuf==3.20.3
+      - dask[array]==2024.4.2
+      - psutil==7.2.2
+      - fvcore==0.1.5.post20221221
+      - iopath==0.1.10
+      - transformations==2022.9.26
+      - ruamel.yaml==0.17.32
+      - kornia==0.7.2
+      - h5py==3.10.0
+      - transformers==4.30.2
+      - tokenizers==0.13.3
