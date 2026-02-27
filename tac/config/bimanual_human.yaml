@@ -1,0 +1,19 @@
+name: bimanual_human
+dataset_path: /home/yechen/Tool-Action-Comprehension/data/pull_out_nail
+
+cam_serials:
+  camera_0: '746112061117'
+  camera_1: '035622061985'
+  camera_2: '238722073905'
+
+tools:
+  left:
+    mesh_file: ./tac/mesh/gripper/textured_mesh.obj
+    segmentation_labels: ['black gripper']
+  right:
+    mesh_file: ./tac/mesh/hammer/textured_mesh.obj
+    segmentation_labels: ['hammer']
+
+image_shape: [3, 128, 128]
+depth_shape: [128, 128]
+intrinsics_shape: [3, 3]

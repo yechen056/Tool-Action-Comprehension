@@ -1,0 +1,6 @@
+newmtl Material
+map_Kd textures/image0.jpg
+norm textures/image1.jpg
+map_ao textures/image2.jpg
+map_Pr textures/image3.jpg
+Pr 1.00
