@@ -1,0 +1,6 @@
+[submodule "VISAM"]
+	path = VISAM
+	url = https://github.com/yechen056/VISAM.git
+[submodule "grounded-sam-osx"]
+	path = grounded-sam-osx
+	url = https://github.com/yechen056/grounded-sam-osx.git
