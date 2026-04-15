@@ -51,7 +51,7 @@ sudo apt install -y libosmesa6-dev libgl1-mesa-glx libglfw3 patchelf libglm-dev
 ### 2. Clone Repository
 
 ```bash
-git clone --recursive https://github.com/yechen056/Tool-Action-Comprehension.git
+git clone https://github.com/yechen056/Tool-Action-Comprehension.git
 cd Tool-Action-Comprehension/
 ```
 
