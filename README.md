@@ -192,3 +192,7 @@ sudo usermod -aG plugdev $USER # Requires re-login
 ## 📜 License
 
 This project is released under the [MIT License](LICENSE).
+
+# 🙏 Acknowledgements
+
+This work builds upon excellent open-source projects including [Grounded-SAM](https://github.com/IDEA-Research/Grounded-Segment-Anything), [FoundationPose](https://github.com/NVlabs/FoundationPose), and [MASt3R](https://github.com/naver/mast3r). We thank the authors and maintainers for their valuable contributions.
