@@ -9,7 +9,9 @@
 [![Python](https://img.shields.io/badge/Python-3.10-blue.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-2.0-ee4c2c.svg)](https://pytorch.org/)
 
-*Yechen Fan, Xinjie Zhang, Jianghao Zhao, Xiaohan Liu, Haibin Wu, Jinhua Ye, and Gengfeng Zheng*
+Yechen Fan<sup>1,2</sup>, Xinjie Zhang<sup>1,2</sup>, Jianghao Zhao<sup>1,2</sup>, Xiaohan Liu<sup>1,2</sup>, Haibin Wu<sup>1</sup>, Jinhua Ye<sup>1,2†</sup>, Gengfeng Zheng<sup>2†</sup>
+
+<sup>1</sup> Fuzhou University &nbsp; <sup>2</sup> Fujian Key Laboratory of Special Intelligent Equipment Safety Measurement and Control
 
 <img src="assets/framework.png" width="95%" alt="TAC Framework Overview">
 
